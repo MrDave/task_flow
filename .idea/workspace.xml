@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b94e98c-d477-4f13-bf1c-ad48b0466efc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_flow_api/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_flow_api/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_flow_api/task_flow_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/task_flow_api/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_flow_api/task_flow_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/task_flow_api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_flow_api/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
