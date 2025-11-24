@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b94e98c-d477-4f13-bf1c-ad48b0466efc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/task_flow_api/tasks/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_flow_api/tasks/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_flow_api/tasks/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_flow_api/task_flow_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/task_flow_api/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_flow_api/task_flow_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/task_flow_api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_flow_api/tasks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/tasks/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_flow_api/tasks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/tasks/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_flow_api/tasks/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/tasks/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,15 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mrdave/Python Projects/task_flow&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/mrdave/Python Projects/task_flow",
+    "settings.editor.selected.configurable": "pyconsole"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
