@@ -5,46 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b94e98c-d477-4f13-bf1c-ad48b0466efc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/task_flow_api/setup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_flow_api/tasks/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_flow_api/tasks/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_flow_api/tasks/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_flow_api/task_flow_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/task_flow_api/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_flow_api/task_flow_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/task_flow_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_flow_api/tasks/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/tasks/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_flow_api/tasks/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_flow_api/tasks/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MrDave"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MrDave&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:MrDave/task_flow.git",
-    "accountId": "938f128f-2f38-42f8-9918-f6a0339c300f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:MrDave/task_flow.git&quot;,
+    &quot;accountId&quot;: &quot;938f128f-2f38-42f8-9918-f6a0339c300f&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="35nYM8IiwZ86yowMpJQWLDxU4As" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/mrdave/Python Projects/task_flow"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mrdave/Python Projects/task_flow&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
