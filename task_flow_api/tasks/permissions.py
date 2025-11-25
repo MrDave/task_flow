@@ -11,3 +11,8 @@ class IsOwnerOrReadOnly(permissions.BasePermission):
 
         # Write permissions are only granted to the owner of the object.
         return obj.owner == request.user
+
+class IsOwner(permissions.BasePermission):
+    """Any permissions are only granted to the owner of the object."""
+    def has_object_permission(self, request, view, obj):
+        return obj.owner == request.user

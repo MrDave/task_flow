@@ -2,7 +2,7 @@ from django.contrib.auth.models import User
 from rest_framework import generics, permissions
 
 from tasks.models import Task
-from tasks.permissions import IsOwnerOrReadOnly
+from tasks.permissions import IsOwnerOrReadOnly, IsOwner
 from tasks.serializers import TaskSerializer, UserSerializer
 
 
@@ -24,7 +24,7 @@ class TaskDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
 
-    permission_classes = [permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly]
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly, IsOwner]
 
 
 class UserList(generics.ListAPIView):
