@@ -32,5 +32,12 @@ dev = [
     "pytest (>=8.4.2,<9.0.0)",
     "flake8 (>=7.3.0,<8.0.0)",
     "mypy (>=1.18.2,<2.0.0)",
-    "httpie (>=3.2.4,<4.0.0)"
+    "httpie (>=3.2.4,<4.0.0)",
+    "pytest-django (>=4.11.1,<5.0.0)",
+    "httpx (>=0.28.1,<0.29.0)"
 ]
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "task_flow_api.settings"
+# -- recommended but optional:
+python_files = ["tests.py", "test_*.py", "*_test.py", "testing/python/*.py"]
