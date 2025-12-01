@@ -1,10 +1,7 @@
 from django.test import TestCase
 from django.contrib.auth.models import User
-from django.core.exceptions import ObjectDoesNotExist
 
 import pytest
-import httpx
-from pytest_django.fixtures import django_db_setup
 
 USERS = [
     {
@@ -46,6 +43,7 @@ URLS = {
     "tasks": "http://127.0.0.1:8000/api/tasks/",
     "task_detail": "http://127.0.0.1:8000/api/token/1/",
 }
+
 
 @pytest.mark.django_db
 class TestUsers(TestCase):

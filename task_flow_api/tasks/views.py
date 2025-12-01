@@ -1,9 +1,9 @@
 from django.contrib.auth.models import User
-from rest_framework import generics, permissions, viewsets
+from rest_framework import permissions, viewsets
 from rest_framework.response import Response
 
 from tasks.models import Task
-from tasks.permissions import IsOwnerOrReadOnly, IsOwner
+from tasks.permissions import IsOwner
 from tasks.serializers import TaskSerializer, UserSerializer
 
 
