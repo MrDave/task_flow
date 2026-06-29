@@ -126,9 +126,9 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
-STATIC_ROOT = Path(BASE_DIR).joinpath("collected_static")
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
-MEDIA_ROOT = Path(BASE_DIR).joinpath("media")
+MEDIA_ROOT = BASE_DIR / "media"
 
 MEDIA_URL = "media/"
 
@@ -164,3 +164,6 @@ SPECTACULAR_SETTINGS = {
     "VERSION": "0.1.0",
     "SERVE_INCLUDE_SCHEMA": False,
 }
+
+SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
+USE_X_FORWARDED_HOST = True
