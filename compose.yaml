@@ -42,6 +42,17 @@ services:
     profiles:
       - tools
 
+  collectstatic:
+    build:
+      context: ./backend
+    command: python manage.py collectstatic --noinput
+    env_file: 
+      - .env
+    volumes:
+      - static_volume:/app/staticfiles
+    profiles:
+      - tools
+
   nginx:
     image: nginx:stable
     restart: unless-stopped
